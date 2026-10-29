@@ -1,0 +1,11 @@
+# reuirements file
+- pip freeze > requirements.txt
+
+# pakage install
+- pip install -r requirements.txt
+
+- python -m pip install --upgrade pip
+- python -m pip install fastapi uvicorn
+
+# load on browser
+- uvicorn main:app --reload
